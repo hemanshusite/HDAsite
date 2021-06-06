@@ -1,0 +1,65 @@
+extends base.pug
+
+block style 
+    style 
+        include ../static/style.css
+    style 
+        include ../static/about.css
+block content 
+    nav#navbar 
+          ul 
+            div.headimg
+                img(src="/static/img/headimg.jpg", alt="", srcset="") 
+                h4 H-D-A 
+            li #[a(href="/") Home] 
+            li #[a(href="/about") About] 
+            li #[a(href="/service") Services] 
+            li #[a(href="/information") Class Info] 
+            li #[a(href="/contact") Contact] 
+    section#about
+        h1#since SINCE (HDA) ESTABLISHED IN 2021...
+        h2#ourc Best Students of (HDA)
+        div#stuinfo
+            div.stu
+                img(src="/static/img/stu1.webp", alt="Bir radha shirpa dance plus 3 winner", srcset="")
+                p.sname Bir Radha Shirpa
+                p.sdance B-boying and Contemporary
+                p.s Dance +3 WINNER 
+            div.stu
+                img(src="/static/img/stu7.jpg", alt="Bir radha shirpa dance plus 3 winner", srcset="")
+                p.sname Aryan Patra 
+                p.sdance B-boying and Bollywood 
+                p.s  Dance +3 2ndrunnerUp 
+            div.stu
+                img(src="/static/img/stu3.jpg", alt="Bir radha shirpa dance plus 3 winner", srcset="" , )
+                p.sname Vartika Jha
+                p.sdance HipHop
+                p.s Dance +5 3rdrunnerUp
+            div.stu
+                img(src="/static/img/stu4.jpg", alt="Bir radha shirpa dance plus 3 winner", srcset="",)
+                p.sname Akash Thapa 
+                p.sdance HipHop 
+                p.s.small Super Dancer 2 1st runnerUp
+            div.stu
+                img(src="/static/img/stu6.jpg", alt="Bir radha shirpa dance plus 3 winner", srcset="")
+                p.sname Yogesh Sharma 
+                p.sdance HipHop and Bollywood 
+                p.s.small Super Dancer 1 1st runnerUp
+        h1#sin Certificate of (HDA)....
+        section#since 
+            div#certificate
+                div.certificate
+                    img(src="/static/img/c1.jpg", alt="certificate of dance", srcset="")
+            div#certificate
+                div.certificate
+                    img(src="/static/img/c2.jpg", alt="certificate of dance", srcset="")
+            div#certificate
+                div.certificate
+                    img(src="/static/img/c3.jpg", alt="certificate of dance", srcset="")
+        section#since2 
+            div#certificate
+                div.certificate
+                    img(src="/static/img/c4.jpg", alt="certificate of dance", srcset="")
+            div#certificate
+                div.certificate
+                    img(src="/static/img/c5.jpg", alt="certificate of dance", srcset="")

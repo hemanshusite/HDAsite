@@ -1,0 +1,67 @@
+extends base.pug
+
+block style 
+    style 
+        include ../static/style.css
+    style 
+        include ../static/service.css
+block content 
+    nav#navbar 
+          ul 
+            div.headimg
+                img(src="/static/img/headimg.jpg", alt="", srcset="") 
+                h4 H-D-A 
+            li #[a(href="/") Home] 
+            li #[a(href="/about") About] 
+            li #[a(href="/service") Services] 
+            li #[a(href="/information") Class Info] 
+            li #[a(href="/contact") Contact] 
+    h1#dancety The (HDA) Dance Styles.....
+    section#service   
+        div.dances
+            img(src="/static/img/d1.jpg", alt="", srcset="")
+            p.st  HIPHOP 
+        div.dances
+            img(src="/static/img/d2.jpg", alt="", srcset="")
+            p.st  SALSA 
+        div.dances
+            img(src="/static/img/d3.jpeg", alt="", srcset="")
+            p.st  BOLLYWOOD 
+    section#service   
+        div.dances
+            img(src="/static/img/d4.jpg", alt="", srcset="")
+            p.st  FREE STYLE
+        div.dances
+            img(src="/static/img/d5.jpg", alt="", srcset="")
+            p.st  CONTAMPARY 
+        div.dances
+            img(src="/static/img/d6.jpg", alt="", srcset="")
+            p.st  BELLY DANCE
+    section#service   
+        div.dances
+            img(src="/static/img/d7.jpg", alt="", srcset="")
+            p.st  ROBOTIC
+        div.dances
+            img(src="/static/img/d8.jpg", alt="", srcset="")
+            p.st  BREAK DANCE
+        div.dances
+            img(src="/static/img/d9.webp", alt="", srcset="")
+            p.st   B-BOYING 
+    section#service   
+        div.dances
+            img(src="/static/img/d10.jpg", alt="", srcset="")
+            p.st GARBA and DANDHIYA
+        div.dances
+            img(src="/static/img/d11.jpg", alt="", srcset="")
+            p.st  TREDITIONAL
+    h1#hser You Can Contact On...
+    section#ser 
+        div.ser
+             img(src="/static/img/logo1 (3).png", alt="Contact on Twitter", srcset="")
+        div.ser
+             img(src="/static/img/logo2.png", alt="Contact on Twitter", srcset="")
+        div.ser
+             img(src="/static/img/logo3.png", alt="Contact on Twitter", srcset="")
+
+        
+        

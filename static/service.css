@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body{
+    background: url("/static/img/bg6.jpg") no-repeat center center/cover;
+}
+.dances img{
+    height: 185px;
+    display: block;
+    margin: 10px auto;
+}
+.dances{
+    border: 4px solid goldenrod;
+    background-color: rgb(212, 211, 211);
+    width: 26%;
+    border-radius: 12px;
+    margin: 15px 30px;
+    box-shadow: 3px 3px 7px yellowgreen;
+    cursor: pointer;
+}
+#service{
+    display: flex;
+    justify-content: center;
+
+}
+.st{
+    font-size: 27px;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 2px 2px 6px goldenrod;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+#dancety{
+    font-size: 55px;
+    letter-spacing: 2px;
+    color: white;
+    text-shadow: 2px 2px 6px black;
+}
+.ser img{
+    height: 35px;
+    margin:10px 30px ;
+    /* background-color: goldenrod; */
+    /* border-radius: 4px; */
+    cursor: pointer;
+    box-shadow: 3px 3px 8px yellowgreen;
+}
+#ser{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+    width: 30%;
+    margin: 12px auto;
+}
+#hser{
+    color: grey;
+    font-family: 'Lobster', cursive;
+    border: 3px solid gold;
+    width: 70%;
+    margin: 0 auto;
+    background-color: aqua;
+    border-radius: 15px;
+    text-shadow: 2px 2px 5px black;
+
+}

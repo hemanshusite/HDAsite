@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Yeon+Sung&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+
+}
+#navbar ul{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin: 12px 35px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-family: 'Squada One', cursive;
+}
+li a:hover{
+    color: black;
+}
+li a:active{
+    color: black;
+}
+section#intro{
+    height: 300px;
+    border: 2px solid black;
+    padding-top: 33px;
+    background: url('/static/img/bg.jpg') no-repeat center center/cover;
+    
+}
+
+#intro h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 10px 0;
+    color: white;
+}
+#intro h3{
+    text-align: center;
+    font-size: 30px;
+    margin: -9px 0;
+    color: white;
+}
+ h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 10px 0;
+    letter-spacing: 1px;
+   
+    font-family: 'Yeon Sung', cursive;
+}
+section#mission {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 18px 0;
+    
+}
+.card{
+    border: 4px solid goldenrod;
+    width: 25%;
+    border-radius: 10px;
+    margin: 0 20px;
+    box-shadow: 3px 3px 8px grey;
+}
+.card h2{
+    font-family: 'Odibee Sans', cursive;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.cardimg img{
+    height: 232px;
+    width: 200px;
+    margin: 19px auto;
+    display: block;
+    /* box-shadow: 3px 3px 7px black; */
+}
+.cardimg p{
+    font-size: 17px;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(194, 67, 44);
+}
+#logo{
+    border: 2px solid rgb(107, 97, 97);
+    border-radius: 5px;
+    background-color: rgb(206, 196, 142);
+    background: url('/static/img/s.jpg') no-repeat center center/cover;
+}
+.logo{
+    /* border: 2px solid black; */
+    width: 50%;
+    margin: 12px auto;
+}
+.logo img{
+    height: 100px;
+    margin: 10px 25px;
+    /* border: 2px solid red; */
+    
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 3px;
+}
+.headimg{
+    display: flex;
+    align-items: center;
+}
+.headimg img{
+    height: 45px;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+.headimg h4{
+    margin: 12px 6px;
+    font-weight: bolder;
+    color: white;
+    font-size: 20px;
+    font-family: 'Yeon Sung', cursive;
+    cursor: pointer;
+    
+}
+.headimg h4:hover{
+    color: goldenrod;
+}

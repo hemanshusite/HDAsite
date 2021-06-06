@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+body{
+    background: url("/static/img/bg3.jpg") no-repeat center center/cover;
+}
+#ourc{
+    text-align: center;
+font-size: 53px;
+font-weight: bolder;
+letter-spacing: 2.5px;
+margin-top: 15px;
+font-family: 'Yeon Sung', cursive;
+color: chartreuse; 
+text-shadow: 2px 2px 5px rgb(46, 45, 45);
+text-decoration: underline 3px blueviolet;
+}
+.stu{
+    border: 4px solid rgb(223, 201, 201);
+    width: 16%;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 15px;
+    box-shadow: 2px 2px 7px greenyellow;
+}
+.stu img{
+    height: 205px;
+    display: block;
+    margin: 5px auto;
+    border-radius: 10px;
+
+}
+.stu p{
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin: 3px 0;
+}
+
+p.sname{
+    color: gray;
+
+}
+p.sdance{
+    color: goldenrod;
+    font-size: 14px;
+    font-weight: bolder;
+}
+p.s{
+    color: rgb(218, 57, 17);
+}
+#stuinfo{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    /* border: 4px solid goldenrod; */
+    border-radius: 15px;
+    /* height: 320px; */
+    /* background-color: #ececbf; */
+}
+p.name{
+    color: gray;
+    /* margin-bottom:3px 0 ; */
+}
+p.dance{
+    color: goldenrod;
+    font-size: 14px;
+    font-weight: bolder;
+    /* margin-bottom:3px 0 ; */
+}
+p.s1{
+    color: rgb(218, 57, 17);
+    /* margin-bottom:3px 0 ; */
+}
+.p{
+    margin-top: 33px;
+}
+p.small{
+    font-size: 14px;
+}
+h1#sin{
+    font-size: 51px;
+    font-family: 'Concert One', cursive;
+    color: indianred;
+    text-shadow: 2px 2px 5px black;
+    letter-spacing: 4px;
+    text-decoration: underline goldenrod;
+    text-shadow: 2px 2px 6px rgb(172, 152, 159);
+}
+h1#since{
+    font-size: 45px;
+    letter-spacing: 4px;
+    border: 2px dashed #95197c;
+    font-family: 'Concert One', cursive;
+    color: rgb(227, 7, 235);
+    background-color: rgb(199, 187, 76);
+    text-shadow: 2px 2px 5px whitesmoke;
+    margin-top: 0px;
+}
+.certificate img{
+    height: 210px;
+    display: block;
+    margin: 8px auto;
+    border: 3px solid silver;
+    border-radius: 8px;
+    box-shadow: 3px 3px 6px whitesmoke;
+}
+.certificate{
+    /* border: 2px  goldenrod; */
+    background-color: silver;
+    width: 29%;
+    margin: 15px 30px;
+
+    
+}
+#since{
+    display: flex;
+    justify-content: center;
+}
+#since2{
+    display: flex;
+justify-content: center;
+margin: 12px 0;
+}

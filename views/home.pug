@@ -1,0 +1,44 @@
+extends base.pug
+
+block style 
+    style 
+        include ../static/style.css
+block content 
+    nav#navbar 
+          ul 
+            div.headimg
+                img(src="/static/img/headimg.jpg", alt="", srcset="") 
+                h4 H-D-A 
+            li #[a(href="/") Home] 
+            li #[a(href="/about") About] 
+            li #[a(href="/service") Services] 
+            li #[a(href="/information") Class Info] 
+            li #[a(href="/contact") Contact]  
+    section#intro         
+        h1 Welcome To Hemanshu Dance Academy(HDA)
+        h3 Eat Sleep Dance Repeat.....
+    h1 Our Mission......
+    section#mission 
+        div.card
+            h2 Dance Perfection
+            div.cardimg
+                img(src="/static/img/img1.jpg", alt="")
+                p This is the best dance academy in the universe..
+        div.card
+            h2 All types dance Here
+            div.cardimg
+                img(src="/static/img/img2.jpg", alt="")
+                p This is the best dance academy in the universe..
+        div.card
+            h2 Expert Teaching
+            div.cardimg
+                img(src="/static/img/img3.jpg", alt="")
+                p This is the best dance academy in the universe..
+    section#service 
+        h1 Our Services....   
+        div#logo
+            div.logo
+                 img(src="/static/img/logo8.png", alt="")
+                 img(src="/static/img/logo5.png", alt="")
+                 img(src="/static/img/logo6.png", alt="")
+                 img(src="/static/img/logo7.png", alt="")           

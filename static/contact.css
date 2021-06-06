@@ -1,0 +1,73 @@
+body{
+   background-color: rgb(219, 88, 219);
+}
+#btn{
+    display: block;
+    margin: 25px auto;
+    width: 305px;
+    height: 58px;
+    font-size: 20px;
+    font-family: 'Yeon Sung', cursive;
+    background-color: aqua;
+    border: 9px solid goldenrod;
+    border-radius: 40px;
+    text-shadow:2px 2px 5px grey;
+}
+section#button{
+    /* border: 2px solid black; */
+   /* margin: 12px 0; */
+   background-color: greenyellow;
+   border-radius: 5px;
+   margin: -24px 0;
+
+}
+#form input,select{
+    display: block;
+    margin: 25px auto;
+    width: 557px;
+    height: 33px;
+    font-size: 17px;
+    padding: 0 10px;
+    BORDER: 2PX SOLID GREY;
+    border-radius: 10px;
+    outline: none;
+}
+#form input{
+    font-family: 'Squada One', cursive;
+}
+#form select , option{
+    font-family: 'Yeon Sung', cursive; 
+}
+#form{
+    padding-bottom: 12px;
+}
+section#contact{
+    /* border: 2px solid red; */
+    margin: -25px 0;
+    background: url('/static/img/bg1.jpg') no-repeat center center/cover;
+    border-radius: 10px;
+    /* margin-bottom: 10px; */
+    display: none;
+}
+#contact h1{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    text-shadow: 2px 2px 5px black;
+    font-size: 53px;
+}
+#submit{
+    display: block;
+margin: 20px auto;
+width: 161px;
+height: 37px;
+font-size: 19px;
+letter-spacing: 3px;
+font-weight: bolder;
+background-color: tomato;
+color: white;
+border: 3px solid goldenrod;
+border-radius: 10px;
+}
+   
+
+   
