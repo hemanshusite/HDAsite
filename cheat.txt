@@ -1,0 +1,9 @@
+git config --global user.name hemanshu
+git config --global user.email "hemanshu253833@gmail.com"
+
+git init
+git add .
+git commit -m "initial commit"
+git remote add origin (copy link)
+
+git push origin master
